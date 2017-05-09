@@ -355,18 +355,18 @@ AS `projects contributed to`, (SELECT COUNT(p.id) AS count FROM projects p INNER
 
                     <div class="sidebar-separator"></div>
 
-                    <div class="new-menu">
-                        <div id="new-menu-header">Create</div>
-                        <div class="new-location new-menu-link">
-                            New Location
-                        </div>
-                        <div class="new-idea new-menu-link">
-                            New Idea
-                        </div>
-                        <div class="new-plan new-menu-link">
-                            New Plan
-                        </div>
-                    </div>
+                <div class="new-menu">
+                   	<div id="new-menu-header">Create</div>
+                        <ul>
+				<li><a href="../location/new" class="button big special">New Location</a></li>
+			</ul>
+                        <ul>
+				<li><a href="../idea/new" class="button big special">New Idea</a></li>
+			</ul>
+			<ul>
+				<li><a href="../plan/new" class="button big special">New Plan</a></li>
+			</ul>
+			</div>
                 </div>
             </div>
         </div>
